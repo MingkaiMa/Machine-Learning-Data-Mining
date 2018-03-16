@@ -11,6 +11,11 @@ fnum = 9
 data_x = diabetes.data[:, np.newaxis, fnum]
 data_y = diabetes.target
 
+#perfect linear relations
+##x = np.array([1,2,3,4])
+##data_x = x[:, np.newaxis]
+##data_y = [2,4,6,8]
+
 #Create linear regression model
 regr = linear_model.LinearRegression()
 
